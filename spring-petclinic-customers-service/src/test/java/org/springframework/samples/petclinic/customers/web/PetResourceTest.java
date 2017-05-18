@@ -45,7 +45,6 @@ public class PetResourceTest {
 
         given(petRepository.findOne(2)).willReturn(pet);
 
-
         mvc.perform(get("/owners/2/pets/2.json").accept(MediaType.APPLICATION_JSON))
             .andExpect(status().isOk())
             .andExpect(content().contentType("application/json;charset=UTF-8"))

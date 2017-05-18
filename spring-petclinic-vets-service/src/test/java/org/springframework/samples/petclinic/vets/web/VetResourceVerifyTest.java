@@ -18,7 +18,7 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
 /**
- * @author msoh
+ ** @author msoh
  */
 @RunWith(SpringRunner.class)
 @WebMvcTest(VetResource.class)
