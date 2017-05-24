@@ -28,7 +28,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * @author michael Szarlinski
+ * @author michael abcd Szarlinski
  */
 @RunWith(SpringRunner.class)
 @DataJpaTest
